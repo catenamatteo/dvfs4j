@@ -18,7 +18,7 @@ import java.util.List;
  * To work, it requires the Linux {@code acpi_cpufreq} driver to be enabled.
  * Also, it requires access permissions on the files managed by {@code acpi_cpufreq}. 
  * This can be achieved, for instance, via:</br>
- * sudo chown owner:ownergrop /sys/devices/system/cpu/cpu{@literal *}/cpufreq/{@literal *}</br>
+ * sudo chown owner:ownergroup /sys/devices/system/cpu/cpu{@literal *}/cpufreq/{@literal *}</br>
  * DVFS currently supports only systems equipped with a single multi-core CPU.</br>
  * To get an instance of DVFS, please use {@link eu.nicecode.dvfs4j.DVFSFactory}.
  * 
