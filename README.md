@@ -1,5 +1,5 @@
 # dvfs4j
-dvfs4j permits to control the operating frequency of CPU cores in Linux systems.</br>
+dvfs4j permits to control the operating frequency of CPU cores in Linux systems, from within a Java application.</br>
 To work, it requires the Linux <tt>[acpi_cpufreq](https://www.kernel.org/doc/Documentation/cpu-freq/index.txt)</tt> driver to be enabled.
 Also, it requires access permissions on the files managed by <tt>acpi_cpufreq</tt>. 
 This can be achieved, for instance, via:</br>
