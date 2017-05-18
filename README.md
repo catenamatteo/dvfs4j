@@ -7,4 +7,4 @@ This can be achieved, for instance, via:</br>
 
 dvfs4j currently supports only systems equipped with a single multi-core CPU.
 
-To get an instance of the DVFS class, please use the DVFSFactory.
+To get an instance of the DVFS class, please use the DVFSFactory. Refer to the test class(es) for working examples.
